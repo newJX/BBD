@@ -1,0 +1,75 @@
+#All_Assign{
+	position: absolute;
+	width: 800px;
+	margin-left: 350px;
+	margin-top: 80px;
+	border: 1px solid #e4e4e4;
+}
+
+#Assign{
+	width: 750px;
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #d5d5d5;
+}
+
+#Assign div{
+	margin-left: 30px;
+	margin-top: 18px;
+}
+
+#_addr{
+	float: left;
+}
+
+#_status{
+	float: left;
+	margin-left: 10px  !important;
+	margin-right: 10px !important;
+}
+
+#_addr h5,#_status h5{
+	line-height: 0.1;
+}
+
+#_title{
+	line-height: 1.8;
+}
+
+#_user{
+	float: left;
+	margin-left: -118px !important;
+	margin-right: 30px !important;
+}
+
+#_date{
+	color: red;
+}
+
+#_validtime{
+	float: left;
+}
+
+#accept{
+	margin-bottom: 16px;
+	margin-left: 485px;
+	margin-top: 10px;
+}
+
+.modal-content{
+	width:600px;
+	height:460px;
+	margin-left:350px !important;
+}
+
+.modal-header{
+	width: 540px !important;
+}
+
+.form-control{
+	width: 540px;
+	height: 100px;
+	margin-left: -40px;
+	
+}

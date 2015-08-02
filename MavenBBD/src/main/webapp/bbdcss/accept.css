@@ -1,0 +1,68 @@
+#accept{
+	position: absolute;
+	width: 760px;
+	margin-left: 460px;
+	margin-top: 80px;
+	border: 1px solid #ebeef1;
+}
+
+.order{
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #dce1e5;
+}
+
+.order div{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+#addr{
+	float: left;
+}
+
+#_status{
+	float: left;
+	margin-left: -10px;
+}
+
+#addr h5,#_status h5{
+	line-height: 0.1;
+}
+
+.label {
+	border-radius: 0.5em;
+	display: block;
+}
+
+#title{
+	line-height: 1.8;
+}
+
+#username{
+	float: left;
+	margin-left: -156px;
+}
+
+#username,#date{
+	font-size: 15px;	
+}
+
+#pay{
+	float: left;
+}
+
+#contact,#comment,#recdate{
+	font-size: 15px;
+	color: #45a3e5;
+	font-weight: bold;
+}
+
+#recdate{
+	margin-bottom: 15px;
+}
+

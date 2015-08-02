@@ -1,0 +1,37 @@
+a:link { text-decoration:none} 
+a:active { text-decoration:none} 
+a:hover { text-decoration:none;} 
+a:visited { text-decoration:none;} 
+
+
+#bbd{
+	margin-left: 200px;
+	font-size:25px;
+}
+
+#status{
+position:absolute;
+font-size:20px;
+line-height:2.2;
+}
+
+#status a{
+	color: orange;
+	font-weight: 600;
+	margin-right:25px;
+	font-family:造字工房悦黑（非商用）常规体;
+} 
+
+#status_line{
+position:absolute;
+margin-top:50px;
+margin-left:156px;
+width:80%;
+height:3px;
+font-size:0;
+background:orange;
+}
+
+#menu_div{
+position: absolute;
+}

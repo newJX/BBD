@@ -1,0 +1,35 @@
+#form1{
+	position:absolute;
+	text-align:center;
+	margin-left:45%;
+	margin-top:11%;
+	width:450px;
+}
+#password1{
+	float:left;
+	width:200px;
+}
+#password2{
+	float:left;
+	width:200px;
+}
+#password3{
+	float:left;
+	width:200px;
+}
+#hidden{
+	width:170px;
+}
+#hidden1{
+	width:350px;
+}
+#hidden2{
+	width:350px;
+}
+#hidden3{
+	width:350px;
+}
+#sub{
+	float:left;
+	margin-left:29%;
+}

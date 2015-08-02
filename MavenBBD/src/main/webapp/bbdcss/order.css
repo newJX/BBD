@@ -1,0 +1,79 @@
+a:link { text-decoration:none;} 
+a:active { text-decoration:none;} 
+a:hover { text-decoration:none;color:red} 
+a:visited { text-decoration:none;} 
+
+#bbd{
+	margin-left: 200px;
+	font-size:25px;
+}
+
+#status{
+position:absolute;
+font-size:20px;
+line-height:2.2;
+}
+
+#status a{
+	color: orange;
+	font-weight: 600;
+	margin-right:25px;
+	font-family:造字工房悦黑（非商用）常规体;
+} 
+
+
+#status_line{
+position:absolute;
+margin-top:50px;
+margin-left:156px;
+width:80%;
+height:3px;
+font-size:0;
+background:orange;
+}
+
+#form1{
+position:absolute;
+margin-left:420px;
+margin-top:10%;
+width:500px;
+height:500px;
+}
+#area{
+height:170px;
+margin-top:10px;
+}
+#valid{
+width:105px;
+float:left;
+margin-top:10px;
+margin-left:45%;
+}
+#pay{
+width:100px;
+margin-left:2%;
+margin-top:10px;
+float:left;
+}
+#sub{
+margin-left:6px;
+margin-top:10px;
+}
+
+li{
+list-style-type:none;
+float:left;
+margin-left:20px;
+padding-left:8px;
+}
+
+span{
+float:left;	
+margin-left:18px;
+}
+
+.modal-body div ul{
+margin-top: 30px;
+margin-bottom: 0px;
+}
+

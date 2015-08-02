@@ -1,0 +1,130 @@
+a:link { text-decoration:none;color:#333} 
+a:active { text-decoration:none;color:#333} 
+a:hover { text-decoration:none;color:#333} 
+a:visited { text-decoration:none;color:#333} 
+
+#text1::-webkit-input-placeholder { color:#000000; }
+#text1::-webkit-input-placeholder {
+    color:#000000;
+}
+#text1::-webkit-input-placeholder {
+    color:#000000;
+}
+
+#bbd{
+	margin-left: 200px;
+	font-size:25px;
+}
+
+body {
+background-image:url('../bg/1212.jpg');
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+#status{
+position:absolute;
+font-size:20px;
+line-height:2.2;
+}
+
+#status a{
+	color: orange;
+	font-weight: 600;
+	margin-right:25px;
+	font-family:造字工房悦黑（非商用）常规体;
+} 
+
+
+#status_line{
+position:absolute;
+margin-top:50px;
+margin-left:156px;
+width:80%;
+height:3px;
+font-size:0;
+background:white;
+border-radius:10px;
+}
+
+#search{
+position:absolute;
+margin-left:450px;
+margin-top:20%; 
+}
+
+#text1{
+background-color:transparent;
+border-radius:0px;
+border-width:1px;
+width:400px;
+height:36px;
+font-size:20px;
+color:black;
+float:left;
+line-height:1.6;
+border-color:white;
+margin-left:85px;
+font-family:造字工房悦黑（非商用）常规体;
+}
+
+#btn{
+background-color:transparent;
+border-width:1px;
+height:36px;
+border-radius:0px;
+font-size:20px;
+margin-left:10px;
+border-color:white;
+line-height:0;
+font-family:造字工房悦黑（非商用）常规体;
+}
+
+#addr{
+float:left;
+margin-left:-19px;
+}
+
+#addrbutton{
+background-color:transparent;
+border-width:1px;
+border-color:white;
+border-radius:0px;
+height:36px;
+font-size:20px;
+color:white;
+line-height:0.5;
+font-family:造字工房悦黑（非商用）常规体;
+}
+
+#addr1{
+height:36px;
+background-color:transparent;
+border-width:1px;
+border-color:white;
+border-radius:0px;
+font-size:20px;
+color:white;
+}
+
+#area{
+height:170px;
+margin-top:10px;
+}
+
+li{
+list-style-type:none;
+float:left;
+margin-left:20px;
+padding-left:8px;
+}
+
+span{
+float:left;	
+margin-left:18px;
+}
+
+.modal-body div ul{
+margin-top: 30px;
+margin-bottom: 0px;
+}

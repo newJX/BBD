@@ -1,0 +1,88 @@
+#release{
+	position: absolute;
+	width: 760px;
+	margin-left: 460px;
+	margin-top: 80px;
+	border: 1px solid #ebeef1;
+}
+
+.order{
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #dce1e5;
+}
+
+.order div{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+#addr{
+	float: left;
+}
+
+#pay{
+	float: left;
+	
+}
+
+#validtime{
+	width: 450px;
+}
+
+#addr h5{
+	line-height: 0.1;
+}
+
+.label {
+	border-radius: 0.5em;
+	display: block;
+}
+
+#a_status{
+	display: block;
+	background-color: #ff4a4a;
+	width:637px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 18px;
+	border-radius: 0.5em;
+	text-align: center;
+	color: #ffffff;
+}
+
+#a_status1{
+	display: block;
+	background-color: #55CAE0;
+	width:637px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-radius: 0.5em;
+	text-align: center;
+	color: #ffffff;
+}
+
+#a_title{
+	float: left;
+}
+
+p#recdate{
+	text-align: right; 
+	margin-bottom: 0px;
+}
+
+#receive div {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.panel-group{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+a:link { text-decoration:none} 
+a:active { text-decoration:none} 
+a:hover { text-decoration:none;} 
+a:visited { text-decoration:none;} 
+
+div#menu{
+	position:absolute;
+	margin-left:200px;
+	margin-top:8%;
+}
+#form1{
+	position:absolute;
+	text-align:center;
+	margin-left:50%;
+	margin-top:9%;
+	width:450px;
+}
+#password1{
+	float:left;
+	width:200px;
+}
+#password2{
+	float:left;
+	width:200px;
+}
+#password3{
+	float:left;
+	width:200px;
+}
+#hidden{
+	width:170px;
+}
+#hidden1{
+	width:350px;
+}
+#hidden2{
+	width:350px;
+}
+#hidden3{
+	width:350px;
+}
+#sub{
+	float:left;
+	margin-left:29%;
+}
+#banner{
+background-color:rgb(255, 118, 42);
+widht:100%;
+height:45px;
+opacity:0.7;
+}
+#status{
+float:right;font-size:20px;line-height:2.2
+} 
+}

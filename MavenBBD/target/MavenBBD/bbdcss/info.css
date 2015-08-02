@@ -1,0 +1,47 @@
+span#name{
+	float: left;
+	margin-top: 7px;
+	width: 60px;
+}
+span#sex{
+	float: left;
+	margin-top: 8px;
+}
+span#birth{
+	width: 60px;
+	float: left;
+	margin-top: 8px;
+}
+#name{
+	width: 120px;
+}
+#addr1{
+	margin-top: 10px;
+}
+#addr2{
+	margin-top: 10px;
+}
+#addr3{
+	margin-top: 10px;
+}
+#explain{
+	margin-top: 10px;
+}
+#sub{
+	position: absolute;
+	margin-left: 261px;
+}
+#hidden{
+	position: absolute;
+	float: left;
+}
+#info_div{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+}
+#datepicker{
+	width: 160px;
+}

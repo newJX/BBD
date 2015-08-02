@@ -1,0 +1,138 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"  
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"  
+          version="3.0">  
+ 
+<display-name>Servlet 3.0 Web Application</display-name> 
+ 
+<servlet>
+	<servlet-name>RegjQueryServlet</servlet-name>
+	<servlet-class>com.check.RegjQueryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RegjQueryServlet</servlet-name>
+	<url-pattern>/RegjQueryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LogjQueryServlet</servlet-name>
+	<servlet-class>com.check.LogjQueryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LogjQueryServlet</servlet-name>
+	<url-pattern>/LogjQueryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>RegisterCheck</servlet-name>
+	<servlet-class>bbd.servlet.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RegisterCheck</servlet-name>
+	<url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LogOutServlet</servlet-name>
+	<servlet-class>bbd.servlet.LogOutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LogOutServlet</servlet-name>
+	<url-pattern>/LogOutServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LoginCheckServlet</servlet-name>
+	<servlet-class>bbd.servlet.LoginCheckServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginCheckServlet</servlet-name>
+	<url-pattern>/LoginCheckServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ChangePasswordServlet</servlet-name>
+	<servlet-class>bbd.servlet.ChangePasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ChangePasswordServlet</servlet-name>
+	<url-pattern>/ChangePasswordServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddOrderServlet</servlet-name>
+	<servlet-class>bbd.servlet.AddOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AddOrderServlet</servlet-name>
+	<url-pattern>/AddOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdatePersonInfoServlet</servlet-name>
+	<servlet-class>bbd.servlet.UpdatePersonInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UpdatePersonInfoServlet</servlet-name>
+	<url-pattern>/UpdatePersonInfoServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>GetPersonalInfoServlet</servlet-name>
+	<servlet-class>bbd.servlet.GetPersonalInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetPersonalInfoServlet</servlet-name>
+	<url-pattern>/GetPersonalInfoServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>GetReleaseOrderServlet</servlet-name>
+	<servlet-class>bbd.servlet.GetReleaseOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetReleaseOrderServlet</servlet-name>
+	<url-pattern>/GetReleaseOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ChangeOrderStatusServlet</servlet-name>
+	<servlet-class>bbd.servlet.ChangeOrderStatusServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ChangeOrderStatusServlet</servlet-name>
+	<url-pattern>/ChangeOrderStatusServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>GetAcceptOrderServlet</servlet-name>
+	<servlet-class>bbd.servlet.GetAcceptOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetAcceptOrderServlet</servlet-name>
+	<url-pattern>/GetAcceptOrderServlet</url-pattern>
+</servlet-mapping>
+
+
+   <!--springmvc 入口配置 start -->
+  <servlet>
+    <servlet-name>spring</servlet-name>
+    <!-- springmvc总控制器 -->
+      <servlet-class>
+        org.springframework.web.servlet.DispatcherServlet
+      </servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>spring</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <!--springmvc 入口配置 end -->
+
+</web-app> 
+  
+
+  
+
