@@ -14,6 +14,7 @@ hehehe
 </style>
 </head>
 <body>
+<!-- i add a test too -->
 <!-- test --chongtuceshi>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
