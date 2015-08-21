@@ -10,11 +10,8 @@
 padding: 10px;
 }
 </style>
-<!-- this is a test -->  
 </head>
 <body>
-<!-- i add a test too -->
-<!-- test --chongtuceshi>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -61,7 +58,6 @@ padding: 10px;
           <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-     <li class="socials"><!-- Place this tag where you want the +1 button to render -->
 <g:plusone annotation="inline" width="150"></g:plusone>
 </li>
   <li class="socials"><div class="fb-like" data-send="false" data-width="150" data-show-faces="true"></div></li>
@@ -84,4 +80,3 @@ padding: 10px;
 </script>
 </body>
 </html> 
-<!-- testhahaha -->			
