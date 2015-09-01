@@ -7,4 +7,5 @@
         <property name="context-root" value="MavenBBD"/>
         <property name="java-output-path" value="/MavenBBD/target/classes"/>
     </wb-module>
+    <!--  -->
 </project-modules>
